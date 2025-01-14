@@ -1,0 +1,6 @@
+ingress:
+    - hostname: rtmp.jplt.com
+      service: tcp://mediamtx:1935
+    - hostname: webrtc.jplt.com
+      service: http://mediamtx:8889
+    - service: http_status:404
